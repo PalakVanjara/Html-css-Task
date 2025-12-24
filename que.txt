@@ -17,7 +17,7 @@ keyframe(animation), media quary (max-width, min-width), transform, transition, 
 
 - CSS Box Model
 - CSS Grid View
-- CSS list
+- CSS list( create navbar)
 - Card Creation
 - Create a Dropdown Menu (without HTML Form - only CSS)
 - Create Website Layout and skeleton
