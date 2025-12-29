@@ -38,6 +38,7 @@ h2{
     border-left: 10px solid rgb(95, 5, 80);
     background-color: rgb(119, 71, 119);
 }
+/* hover effect */
 .hover-box{
     height: 200px;
     width: 500px;
@@ -62,6 +63,7 @@ h2{
     font-size: 5rem;
     transform: translateX(20px) scale(1.1);
 }
+/* anchor tag */
 a{
     font-size: 50px;
     color: blue;
@@ -76,4 +78,41 @@ a:active{
 a:hover{
     text-decoration: underline;
     background-color: rgb(243, 190, 155);
+}
+/* section color change */
+ section {
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 8px;
+}
+ h2::before {
+    content: "★ ";
+    color: orange;
+}
+h2::after {
+    content: " ★";
+    color: orange;
+}
+
+ p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+p::first-letter {
+    font-size: 40px;
+    font-weight: bold;
+    color: darkblue;
+}
+p::first-line {
+    color: green;
+}
+ p::selection {
+    background-color: red;
+    color: white;
+}
+
+li::before {
+    content: "✔ ";
+    color: green;
+    font-weight: bold;
 }
