@@ -64,3 +64,37 @@ create a single html file that show below css class withn heading
  
  
 18. use three libraries like google font, font-awesome, bootstrap etc. (don't use svg)
+
+
+Task (30/12/2025)
+Responsive, Animation And Advance CSS:
+1. Create a div that rotate when user hover on div
+ 
+2. show difference flex vs grid display
+ 
+3. create a section. In Section Show all justify-content property like center, flex-end, flex-start, space-between, space-around, space-evenly
+ 
+4. create a paragraph that text-stroke property
+ 
+5. Show use Of CSS Columns like Auto, Column-width, Column-count
+ 
+ 
+6. Show use Of CSS Hyphens like none, Manual and Auto
+ 
+7. Show Animation Using Transform-Origin
+ 
+8. Show All CSS Transforms Property like translate, rotate, scale, skewX, skewY, skew, Metrix
+ 
+9. Show 3D Rotation using Transforms And Animation (keyframes)
+ 
+10. Show Use of CSS Transitions Property like transition, transition-delay, transition-duration, transition-property, transition-timing-function
+ 
+11. create A animated Div that rotate and swift place in window
+ 
+12. show use case of z-index
+ 
+13. set text size with different units like px, em, rem, mm, in, pt, cm
+ 
+14. create a product section with responsive design fit to desktop, tablet and mobile
+
+ 

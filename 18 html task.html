@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="18new.css">
 </head>
 <body>
+                        <!-- 1 -->
     <center><h1>css Border side example</h1></center>
 
     <h3>Top border</h3>
@@ -28,21 +29,22 @@
     <div class="box border-left">
         this div has only left border
     </div>
-
+                    <!-- 2 -->
     <center><h1>Hover Effect Example</h1></center>
     <div class="hover-box">
         Hover me
     </div>
-    
+                    <!-- 3 -->
     <center><h1>Anchor tag with pseudo-class</h1></center>
     <h3>
         <a href="https://www.google.com"> CLick me</a>
     </h3>
-
+                    <!-- 4 -->
     <section>
-        <h2>Pseudo Elements Example</h2>
 
-        <p>
+        <h2 class="pseudo-heading">Pseudo Elements Example</h2>
+
+        <p class="pseudo">
             This paragraph demonstrates CSS pseudo elements. 
             The first letter is styled differently, the first line has a unique color, 
             and when you select this text, the background turns red with white text.
@@ -54,6 +56,147 @@
             <li>Third item</li>
         </ul>
     </section>
-    
+                                <!-- 5 -->
 
+  <!-- BLOCK  --> 
+   <!-- by default block ma j display thay -->
+  <h1>Normal h1 (display: block)</h1>
+  <h1>Next h1 (new line)</h1>
+
+  <hr>
+
+  <!-- INLINE -->
+  <h1 class="inline">h1 inline</h1>
+  <h1 class="inline">h1 inline</h1>
+
+  <hr>
+
+  <!-- NONE -->
+  <p class="none">You cannot see me (display: none)</p>
+  <h3>Text after display:none</h3>
+
+  <hr>
+  <!-- INLINE-BLOCK -->
+  <div class="inline-block">Box 1</div>
+  <div class="inline-block">Box 2</div>
+  <div class="inline-block">Box 3</div>
+
+  <hr>
+
+  <!-- FLEX -->
+  <div class="flex-container">
+    <div>Flex 1</div>
+    <div>Flex 2</div>
+    <div>Flex 3</div>
+    <div>Flex 4</div>
+  </div>
+
+  <hr>
+
+  <!-- GRID -->
+  <div class="grid-container">
+    <div>Grid 1</div>
+    <div>Grid 2</div>
+    <div>Grid 3</div>
+    <div>Grid 4</div>
+    <div>Grid 4</div>
+  </div>
+                        <!-- 6 -->
+
+<section class="position-demo">
+
+  <h2>CSS Position Property Demo</h2>
+
+  <!-- RELATIVE -->
+  <div class="relative-box">
+    Relative
+    <div class="absolute-box">Absolute</div>
+  </div>
+
+  <!-- FIXED -->
+  <p class="fixed-text">Fixed Position (I stay while scrolling)</p>
+
+  <!-- STICKY -->
+  <p class="sticky-text">Sticky Position (Stick on top)</p>
+
+  <!-- CONTENT TO SCROLL -->
+  <div class="scroll-content">
+    <p>Scroll down to see fixed & sticky behavior</p>
+    <p>More content...</p>
+    <p>More content...</p>
+    <p>More content...</p>
+    <p>More content...</p>
+    <p>More content...</p>
+    <p>More content...</p>
+     <p>More content...</p>
+    <p>More content...</p>
+    <p>More content...</p>
+    <p>More content...</p>
+    <p>More content...</p>
+    <p>More content...</p>
+    
+  </div>
+
+</section>
+<br>
+                        <!-- 7 -->
+
+<section class="overflow-demo">
+  <h2 class="image-list">Image Hover Zoom (Overflow Demo)</h2>
+<div class="all-images">
+  <div class="box1 visible">
+    <p>overflow: visible</p>
+    <img src="p1.jpg" alt="sample">
+  </div>
+
+  <div class="box1 hidden">
+    <p>overflow: hidden</p>
+    <img src="p1.jpg" alt="sample">
+  </div>
+
+  <div class="box1 auto">
+    <p>overflow: auto</p>
+    <img src="p1.jpg" alt="sample">
+  </div>
+  </div>
+</section>
+                    <!-- 8 -->
+    <h3>Unordered List (Square Bullets)</h3>
+    <ul class="square-list">
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+    </ul>
+
+    <h3>Ordered List (Roman Numbers)</h3>
+    <ol class="roman-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <h3>List with Bullets Inside</h3>
+    <ul class="inside-list">
+        <li>Red</li>
+        <li>Green</li>
+        <li>Blue</li>
+    </ul>
+
+    <h3>List with Image Bullets</h3>
+    <ul class="image-list">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+    <!-- 9 -->
+<div class="image-effect">
+     <h2 class="heading-image">CSS Visibility Property Demo</h2>
+    <p>Hover over an image to hide it</p>
+
+    <section class="image-section">
+        <img src="p1.jpg" alt="Image 1">
+        <img src="p1.jpg" alt="Image 2">
+        <img src="p1.jpg" alt="Image 3">
+    </section>
+</div>
 </html>

@@ -85,28 +85,28 @@ a:hover{
     padding: 20px;
     border-radius: 8px;
 }
- h2::before {
+.pseudo-heading::before {
     content: "★ ";
     color: orange;
 }
-h2::after {
+.pseudo-heading::after {
     content: " ★";
     color: orange;
 }
 
- p {
+.pseudo{
     font-size: 18px;
     line-height: 1.6;
 }
-p::first-letter {
+.pseudo::first-letter {
     font-size: 40px;
     font-weight: bold;
     color: darkblue;
 }
-p::first-line {
+.pseudo::first-line {
     color: green;
 }
- p::selection {
+.pseudo::selection {
     background-color: red;
     color: white;
 }
@@ -116,3 +116,210 @@ li::before {
     color: green;
     font-weight: bold;
 }
+/* task 5 */
+
+/* inline */
+.inline {
+  display: inline;
+  background-color: lightblue;
+}
+
+/* none */
+.none {
+  display: none;
+}
+
+/* inline block */
+.inline-block {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  background-color: lightgreen;
+  margin: 50px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  padding: 60px;
+  border-radius: 10px ;
+}
+
+/* flex */
+.flex-container {
+  display: flex;
+  gap: 10x;
+  background-color: #736cdb;
+  padding: 50px;
+}
+
+.flex-container div {
+  background-color: salmon;
+  padding: 10px;
+  width: 400px;
+  height: 50px ;
+  border-radius: 20px; 
+  margin-right: 10px;
+}
+/* grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  background-color: #ccc;
+  padding: 10px;
+}
+
+.grid-container div {
+  background-color: rgb(238, 193, 71);
+  padding: 10px;
+  height: 50px;
+  border-radius: 20px; 
+}
+/* position demo */
+.position-demo {
+  padding: 15px;
+  border: 2px solid #000;
+  margin-top: 40px;
+}
+.position-demo h2{
+    color: black;
+}
+
+/* RELATIVE */
+.relative-box {
+  position: relative;
+  width: 250px;
+  height: 50px;
+  background-color: lightblue;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+/* ABSOLUTE */
+.absolute-box {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: tomato;
+  color: white;
+  padding: 5px;
+}
+
+/* FIXED */
+.fixed-text {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: black;
+  color: white;
+  padding: 8px;
+  font-size: 14px;
+}
+
+/* STICKY */
+.sticky-text {
+  position: sticky;
+  top: 0;
+  background-color: rgb(243, 216, 66);
+  padding: 50px;
+  font-weight: bold;
+}
+
+/* SCROLL CONTENT */
+.scroll-content {
+  height: 200px;
+  overflow: auto;
+
+}
+/* 7 */
+.overflow-demo {
+  margin-top: 30px;
+}
+.image-list{
+    color: darkmagenta;
+}
+
+/* COMMON BOX STYLE */
+.box1 {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  margin: 20px;
+  display: inline-block;
+  text-align: center;
+  
+}
+.all-images{
+    display: flex;
+    gap: 80px;
+}
+.box1 p{
+    font-size: larger;
+    font-weight: bolder;
+}
+/* IMAGE STYLE */
+.box1 img {
+  width: 100%;
+  transition: transform 0.5s ease;
+}
+
+/* ZOOM EFFECT */
+.box1:hover img {
+  transform: scale(1.4);
+}
+
+/* OVERFLOW TYPES */
+.visible {
+  overflow: visible;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.auto {
+  overflow: auto;
+}
+                        /* 8 */
+
+ /* Unordered list with square bullets */
+.square-list {
+    list-style-type: square;
+}
+
+/* Ordered list with Roman numerals */
+.roman-list {
+    list-style-type: upper-roman;
+    }
+
+/* List with bullets inside the content box */
+.inside-list {
+    list-style-position: inside;
+    }
+
+/* List using an image as bullet */
+.image-list {
+    list-style-image: url("p11.jpg"); 
+}
+/* 9 */
+.image-effect{
+    font-size: xx-large;
+    color: maroon;
+}
+.heading-image{
+    color: rgb(136, 8, 19);
+}
+
+.image-section {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    }
+.image-section img {
+    width: 250px;
+    height: 150px;
+    border: 2px solid black;
+    }
+/* Hide image on hover */
+.image-section img:hover {
+    visibility: hidden;
+    }
